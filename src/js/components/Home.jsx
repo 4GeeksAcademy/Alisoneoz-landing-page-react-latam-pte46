@@ -9,13 +9,14 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar />
-			<Jumbotron />
-			<div className="row justify-content-between">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-			</div>
+			<div className="container">
+				<Jumbotron />
+				<div className="row justify-content-between g-4  px-0 ">
+					<Card className="bg-dark"/>
+					<Card />
+					<Card />
+					<Card />
+				</div></div>
 		</div>
 	);
 };
